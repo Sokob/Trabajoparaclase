@@ -1,0 +1,214 @@
+*{
+        font-family: 'Mukta', sans-serif;
+        box-sizing: border-box;
+        background-image: url(“https://www.google.com/url?sa=i&url=https%3A%2F%2Fes.123rf.com%2Fphoto_76041796_fondo-abstracto-de-cuadrados-negros-fondos-de-pantalla-para-sitios-web-peque%25C3%25B1os-rect%25C3%25A1ngulos-est%25C3%25A1n-conectado.html&psig=AOvVaw3HHfKEoCfOI4hu_D1ITpFw&ust=1631330847609000&source=images&cd=vfe&ved=0CAsQjRxqFwoTCNDPseG68_ICFQAAAAAdAAAAABAF”)
+        
+}
+
+#nav2{
+        width: 500px;
+        padding: 6px;
+     }
+     
+     .titulonav{   
+        border-radius: 15px;
+        border-width: 1px;
+        border-style:hidden;
+        border-color: #000000;
+        font-size: 15pt;
+        font-weight: bold;
+        background-color: #262626;
+        color: #ffffff;
+        padding: 10px;
+        text-align: center;
+     }
+     
+     .cuerporec{
+        margin-top: 4px;
+        margin-right: 0pt;
+        margin-bottom: 10px;
+        margin-left: 0pt;
+        
+     }
+     
+     .cuerporec ul{
+        margin-top: 5px;
+        margin-right: 0px;
+        margin-bottom: 20px;
+        margin-left: 0px;
+        padding-top: 0pt;
+        padding-right: 0pt;
+        padding-bottom: 0pt;
+        padding-left: 0px;
+        list-style-type: none;
+        list-style-image: none;
+        list-style-position: outside;
+        border-radius: #262626;
+     }
+     
+     .cuerporec li{
+        
+        border-width: 5px;
+        padding: 1px 0 2px 2px;
+        font-size: 20pt;
+        padding-bottom: 2px;
+        margin-top: 2px;
+        margin-right: 0pt;
+        margin-bottom: 2px;
+        margin-left: 0pt;
+        text-align: center;
+     }
+     
+     .cuerporec a{
+        
+        text-decoration: none;
+        color: #262626;
+     }
+     
+
+main{
+        border-radius: 5px;
+        width: 1280px;
+        background-image: url(imagenes/fondo.png);
+        background-repeat: repeat;
+        height:11390px;
+        margin: auto;
+        box-shadow: 0px 6px 6px 6px rgba(0, 0, 0, 0.5)
+
+}
+
+header{
+        width: 1280px;
+        height: 200px;
+        background-color: rgb(236, 236, 236);
+        float: left;
+}
+
+#logo{
+        width: 400px;
+        height: 200px;
+        background-color: rgb(236, 236, 236);
+        float:right;
+        padding-right: 500px;
+        padding-top: 20px;
+        margin-left: auto;
+       
+}
+
+nav{
+        width: 1280px;
+        height: 60px;
+        background-color: #1CA698;
+        float: left;
+        padding-left: 0px;
+        border-radius: 0px;
+}
+
+nav a{
+        color: white;
+        text-decoration: none;
+        line-height: 60px;
+        margin-left: 120px;
+        display: inline-block;
+        padding: 0 20px;
+        border-radius: 25px;
+          
+}
+
+nav a:hover{
+        background-color: #186d64af
+}
+
+#contenido{
+        width: 1280px;
+        height: auto;
+        background-color: #F2F2F2;
+        float: left;
+        padding-left: 0px;
+}
+
+.titulos{
+        color: #FFFFFF;
+        font-size: 50px;
+        width: 1200px;
+        height: auto;
+        background-color: #262626;
+        margin-top: 25px;
+        float: left;
+        margin-left: 40px;
+        border-radius: 50px;
+        text-align: center;
+        
+}
+
+.Boton{
+        color: #FFFFFF;
+        font-size: 50px;
+        width: 1200px;
+        height: auto;
+        background-color: #595959;
+        margin-top: 25px;
+        float: left;
+        margin-left: 40px;
+        border-radius: 15px 15px 0px 0px;
+        text-align: center;
+        text-decoration: none;
+        
+}
+.Boton a{
+        color: white;
+        text-decoration: none;
+}
+
+
+section{
+        width: 1200px;
+        height: auto;
+        background-color: #9AD9C7;
+        margin-top: 25px;
+        float: left;
+        margin-left: 40px;
+        border-radius: 35px;
+        font-size: 20px;
+        box-shadow: #262626 5px 5px 10px;
+        margin-bottom: 25px;
+}
+
+.texto{
+        width: 550px;
+        height: auto;
+        float: left;
+        margin-left: 30px;
+        padding: 20px;
+}
+
+#HTML{
+        width: 550px;
+        height: auto;
+        float: left;
+        margin-left: 30px;
+        padding: 20px;
+}
+
+.foto{
+        margin-left: auto;
+        margin-right: auto;
+}
+
+
+footer{
+        width: 1280px;
+        height: 200px;
+        background-color: #595959;
+        float:left;
+        padding-right: 80px;
+        
+}
+
+
+.style{
+       text-align: center;
+
+}
+
+

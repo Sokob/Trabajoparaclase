@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="utf-8">
+    <title>Introduccion a HTML y CSS</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mukta:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/estilo1.css">  
+</head>
+
+<body>
+    
+    <main>
+        <header>
+        <div id="logo">
+            <img src="imagenes/Bitacora.png">
+        </div>
+            <div id="nav2">
+                <div class="titulonav">
+                ¿A cual unidad vamos?
+                </div>
+                <div class="cuerporec">
+                <ul>
+                   <li><a href="#" target="_blank">Unidad 1</a></li>
+                   <li><a href="#">Aun por revelar...</a></li>
+                   <li><a href="#">Aun por revelar...</a></li>
+                   <li><a href="#">Aun por revelar...</a></li>
+                </ul>
+                </div>
+             </div>
+            </div>
+        </header>
+        <nav>
+            <a href="#Hypertext" title="Ir a HTML">HTML</a>
+            <a href="#CSS" title="Ir a CSS">CSS</a>
+            <a href="#links" title="Ir a Links">Links</a>
+            <a href="#HTML5" title="Ir a HTML5">HTML5</a>
+            <a href="#CSS3" title="Ir a CSS3">CSS3</a>
+            <a href="#web" title="Ir a Proceso de diseño">Diseño</a>
+        </nav>
+
+        
+
+        <div id="contenido">
+            <div class="titulos">
+                HTML
+            </div>
+            <section>
+                <div class="HTML">
+                    <h1 id="Hypertext"><center>¿Que es HTML?</center></h1>
+                   <p>HTML (HyperText Markup Language) hace referencia a los enlaces que conectan a páginas web entre sí, con una estructura basada en “marcas” para mostrar en pantalla los textos u otro contenido de índole multimedia en los navegadores.
+                        HTML cuenta con una estructura de inicio (head), un contenido (p, title, body, etc.), y un cierre (footer) para el desarrollo de los recursos en la programación web.</p>
+                    <h2>Principales etiquetas en HTML:</h2>
+                    <ul>
+                        <li>BODY: Indica la parte y contenido del cuerpo del documento HTML en el que se está trabajando.
+                        <li>HEAD: En esta sección podemos indicar los metadatos: título de la página, hojas de estilo, CSS, lenguaje.
+                        <li>DIV: La etiqueta div nos ayuda a mantener un control de las secciones con las que estamos trabajando y a buscarlos de forma más adecuada en el CSS.
+                        <li>A: Esta etiqueta nos ayuda a crear enlaces web o de referencia entre archivos, usado principalmente para indicar la existencia de contenido extra.
+                        <li>STRONG: Etiqueta que tienda a dar mucho más énfasis a los títulos y textos.
+                        <li>BR: Nos sirve para hacer un salto de línea
+                        <li>H1…H6: Esta etiqueta hará énfasis al tamaño de títulos que hay, siendo H1 el mas grande, y el H6 el más chico. Después del H2 estos tienden a cumplir la función de subtítulos.
+                        <li>IMG: Usado para mostrar imágenes en los archivos HTML.
+                        <li>UL: Nos será útil para crear lista que no tienen un orden, además estas se subdividen en:
+                            <li>OL: Listas ordenadas.
+                            <li>LI: Lista de elementos (no confundir con listas sin ordenar).
+                        <li>P: Nos sirve para poder encerrar nuestros textos en párrafos, puede ser combinado con la etiqueta br para poder crear saltos.
+                        <li>SPAN: Con esta etiqueta podemos personalizar el estilo de solamente una parte del texto de nuestro HTML.
+                    </ul>
+                     
+                    <p>La ventaja de HTML es que es un estilo de “programación” libre y de código abierto que permite a cualquier persona crear una simple pagina web, pero suele usarse como un método de enseñanza y para principiantes, esto debido a que se a que HTML a sido actualizado con etiquetas que resultan de fácil comprensión para todos
+                         los usuarios y resume ciertas funciones que ayudan al CSS.</p>
+                </div>
+                <div class="foto"></div>
+            </section>
+            <div class="titulos">
+                CSS
+            </div>
+            <section>
+                <div class="HTML">
+                    <h2 id="CSS"><center>¿Que es CSS?</center></h2>
+                   <p>CSS (Cascading Style Sheets) o hojas de estilo cascada es un lenguaje que otorga estilos de color, fuentes, diseños o 
+                       espaciado para documentos web, esto quiere decir que el código CSS es la parte que todos vemos, 
+                       la parte con colores y diseños, mientras que el HTML es la estructura base de la página web.</p>
+                    <p>Para poder agregar un estilo CSS a nuestros archivos HTML, hace falta conocer 3 formas en las que podemos trabajar:</p>
+                    <h2>Hoja de estilo incrustada:</h2>
+                    <p>Un CSS puede incrustarse dentro de el mismo documento de HTML con una etiqueta “style” en la cabecera <head> del documento HTML. 
+                        El problema de este estilo es que solo es aplicable para un solo documento HTML, porque causaría problemas si se usa en mas de uno, en este casi, 
+                        si se piensa trabajar con mas de un documento, es preferible usar una hoja de estilo externo.</p>
+                    <div class="style">
+                        <img src="imagenes/Style2.png">
+                    </div>
+                    <h2>Hoja de estilo en linea:</h2>
+                    <p>El estilo en línea se utiliza en cualquier parte del documento HTML, especificando el elemento que se va a modificar en HTML utilizando
+                         la etiqueta “style” dentro del elemento en el que se quiere poner dicho diseño. A diferencia del estilo incrustado y externo, este solo modificara un aspecto en específico del documento HTML, lo cual es mas recomendable 
+                        intentar no usarlo de manera practica y cotidiana en los proyectos (solo como boceteado digital o para saber cómo afecta en el documento).</p>
+                    <div class="style">
+                        <img src="imagenes/Style.png">
+                    </div>
+                    <h2>Hoja de estilo externa:</h2>
+                    <p>En este estilo se trabaja en una hoja externa de CSS, donde vamos a comunicarnos con dichos archivos
+                         desde el HTML utilizando la etiqueta “link” desde la cabecera del documento, se especifica la ruta de dirección donde se localiza el CSS con los estilos y se trabaja por separado. Como dato adicional,
+                         el atributo type es opcional y sirve para especificar un tipo de medio – text/CSS</p>
+                    <div class="style">
+                        <img src="imagenes/Style3.png">
+                    </div>
+                    <center><h2>Sintaxis de la regla CSS:</h2></center>
+                    <div class="style">
+                        <img src="imagenes/ReglaCSS.png">
+                    </div>
+                    <h2>jerarquia del CSS</h2>
+                    <p>CSS utiliza una jerarquía hojas de estilo, lo cual va a afectar en cómo se utilizan en los documentos, a continuación, te enseño cuál es su jerarquía:</p>
+                    <ol>
+                        <li>Estilo de hoja en línea
+                        <li>Estilo de hoja externa e interna (referido a los que se colocan en el encabezado)
+                        <li>Los que usa el navegador propio (solo lo hará si el navegador no es capaz de encontrarlos)
+                    </ol>
+                </div>
+                <div class="foto"></div>
+            </section>
+            <div class="titulos">
+                LINKS
+            </div>
+            <section>
+                <div class="HTML">
+                    <h2 id="links">Etiqueta para links</h2>
+                   <p>Los links funcionan como un enlace entre un medio de información a otro, ya sean imágenes, videos, textos,
+                        se pueden colocar y referencias dentro del HTML. 
+                       Para que los links puedan funcionar tienen que hacer uso de la sintaxis:</p>
+                    <div class="style">
+                        <img src="imagenes/Reglalink.png">
+                    </div>
+                    <h2>Estados de actividad</h2>
+                    <p>Los navegadores tienen estados en los que los links se pueden mantener, ya sean que estén activos o ya visitados,
+                         el navegador le hará saber al usuario si ya ha visitado dicho link o si hay muchos mas por visitar. 
+                        Los links pueden tener representaciones para dichos estados de actividad, por ejemplo:</p>
+                        <ul>
+                            <li>Un enlace no visitado puede estar subrayado y en color azul.
+                            <li>Un enlace visitado va a estar subrayado y tendrá un color morado.
+                            <li>Un enlace activo estará subrayado y en color rojo al momento de dar click.
+                        </ul>
+                    <h2>Atributos especiales para la etiquetas con links</h2>
+                    <p>Dentro de los atributos de “a” nos encontramos con 3 estilos que nos ayudaran a brindar información y como herramienta de uso:</p>
+                    <h3>Link de imagen:</h3>
+                    <p>Para poner un link dentro de una imagen, solo basta con poner la etiqueta “img” dentro de la etiqueta “a”.</p>
+                    <div class="style">
+                        <img src="imagenes/linkimagen.png">
+                    </div>
+                    <h3>Link con atributo "title":</h3>
+                    <p>Un link con atributo “title” siempre va a especificar como se llama susodicho elemento dentro del documento, normalmente este objeto se visualiza su pasamos el cursor sobre algún elemento dentro de la página HTML.</p>
+                    <div class="style">
+                        <img src="imagenes/linktitle.png">
+                    </div>
+                    <h3>Link con atributo "target":</h3>
+                    <p>Un link de atributo target va a especificar como vamos a abrir el link o documento, por ejemplo:</p>
+                    <ul>
+                        <li>_self: Abre el documento en misma ventana o pestaña en la que se hizo el click
+                        <li>_blank: Abre el documento en otra ventana o pestaña
+                        <li>_parent: Abrirá el documento y lo ajustará al marco primario de la pagina
+                        <li>_top: Abrirá el documento de forma y tamaño completo en la pagina
+                    </ul>
+                    <div class="style">
+                        <img src="imagenes/linktarget.png">
+                    </div>
+                </div>
+                <div class="foto"></div>
+            </section>
+            <div class="titulos">
+                HTML5
+            </div>
+            <section>
+                <div class="HTML">
+                    <h2 id="HTML5">HTML5 (Nuevos elementos)</h2>
+                   <p>La versión 5 de HTML presenta una serie de elementos útiles para la web actual donde los podemos clasificar en dos formas:</p>
+                   <br></br>
+                   <p>NUEVAS FUNCIONALIDADES:  HTML5 cumple con nuevas funciones que permiten una mejor interacción con el usuario, ya sean soportes para video o sonido, lienzos para dibujar, entre varios.</p>
+                   <p>WEB SEMANTICA: Estas nuevas etiquetas proponen simplificar, tanto el lenguaje como el método de trabajo indicando los bloques específicos en el código de la web, en lugar de darles representación alguna, sin embargo, cabe resaltar dos cosas, existen dos tipos de web semántica:</p>
+                   <ul>
+                        <li>Elementos NO semánticos: Son aquellas etiquetas o elementos del código que no dicen nada sobre su contenido, ejemplo las etiquetas: div y span.
+                        <li>Elementos semánticos: Son aquellos que, si definen algún tipo de contenido en el código y que, si funciona para algo, ejemplo de algunas etiquetas son: form, table y article.
+                   </ul>
+                   <br></br>
+                   <p>Algunas de las etiquetas semánticas que se actualizaron y añadieron, fueron:</p>
+                   <ul>
+                        <li>ARTICLE: Define información que funciona independiente del documento
+                        <li>ASIDE: Define contenidos que casi no se relacionan y que funcionan fuera de este
+                        <li>ADDRES: Define una sección que contiene información de contacto
+                        <li>FIGCAPTION: Representa la leyenda de una figura.
+                        <li>FIGURE: Representa una figura ilustrada como parte del documento.
+                        <li>FOOTER: Define el pie de página.
+                        <li>HEADER: Define la cabecera de la página.
+                        <li>MAIN: Define el contenido principal e importante del documento.
+                        <li>NAV: Define una sección que contiene información y enlaces.
+                        <li>SECTION: Define una sección dentro del documento.
+                   </ul>
+    
+                   <p>Antiguamente con HTML4, los desarrolladores  utilizaban sus propios identificadores para poder trabajar y aunque suele ser algo útil, 
+                       cuando se comparte el trabajo de desarrollo se van a suscitar muchos problemas, tanto de comunicación, como de entendimiento por ambos lados, es por eso que HTML5 incluyo elementos (Header, Footer, Nav, Section, Article), 
+                       gracias a esta actualización en los códigos, los navegadores pueden utilizar de forma eficiente y rápida en empresas, aplicaciones y comunidades.</p>
+
+                    <h3>Nuevas funciones:</h3>
+
+                    <p>Los elementos nuevos sirven para integrar contenido multimedia para agregar nueva información para la web:</p>
+
+                    <ul>
+                        <li>AUDIO: Inserta audio en la página.
+                        <li>VIDEO: Inserta clips o videos desde internet o desde un archivo enlazado.
+                        <li>EMBED: Integra plugins.
+                        <li>SOURCE: Permite especificar varias pistas de sonido o audio para los elementos de audio y video. 
+                    </ul>
+
+
+
+                </div>
+                <div class="foto"></div>
+            </section>
+            <div class="titulos">
+                CSS3
+            </div>
+            <section>
+                <div class="HTML">
+                    <h2 id="CSS3">CSS3 (Nuevas propiedades)</h2>
+                   <p>CSS3 intenta reducir el uso del código javascript y estandariza funciones populares que no solo abarcaban estilos y diseños, 
+                       sino que también sus formas y movimientos en el archivo del CSS, donde cada cosa tiene un efecto nuevo y visual, sin embargo, 
+                       para su uso correcto se deben agregar prefijos del estilo -moz-. -o- y -webkit- para que funcionen en los navegadores.</p>
+    
+                <h3>Border-radius:</h3>
+                <p>Esta propiedad genera equinas redondeadas para la caja formada por el elemento y posee dos parámetros diferentes que dan forma a la esquina, por ejemplo:</p>
+                   
+                <p>Para hacer redondeadas todas las esquinas, debemos usar la propiedad:</p>
+                <div class="style">
+                    <img src="imagenes/borderradio.png">
+                </div>
+                <p>Pero si quieres modificar cada valor independiente, debes recordar que CSS declara los bordes en orden de las manecillas del reloj, comenzando desde la esquina superior izquierda:</p>
+                <div class="style">
+                    <img src="imagenes/borderradio2.png">
+                </div>
+                <h3>Box-shadow:</h3>
+                <p>Esta propiedad crea sombras para la caja formada, sin embargo, debes considerar que toma 5 parámetros: color, desplazamiento horizontal y vertical, difuminación y la palabra “inset” para crear una sombra interna:</p>
+                <div class="style">
+                    <img src="imagenes/boxshadow.png">
+                </div>
+                <h3>Text-shadow:</h3>
+                <p>Es similar a “box-shadow”, pero con la diferencia de esta crea sombras en los textos. Al igual que el anterior, toma 4 parámetros: color, desplazamiento horizontal y vertical, y la difumición:</p>
+                <div class="style">
+                    <img src="imagenes/textshadow.png">
+                </div>
+                <h3>@Font-face:</h3>
+                <p>Esta regla nos permite cargar y usar cualquier fuente que necesitemos. Para esto debemos declarar la fuente y dárselo por medio de una dirección con la propiedad Font-family y especificar el archivo con src, por ejemplo:</p>
+                <div class="style">
+                    <img src="imagenes/font.png">
+                </div>
+                <h3>Outline:</h3>
+                <p>Este atributo genera un borde alejado del borde original del elemento al que fue aplicado, se describe de la siguiente forma:</p>
+                <div class="style">
+                    <img src="imagenes/outline.png">
+                </div>
+                <h3>Transform:</h3>
+                <p>Esta propiedad modifica la forma del elemento con 4 propiedades:</p>
+                <ul>
+                    <li>transform: scale(1.5);
+                    <li>transform: rotate(20deg);
+                    <li>transform: translate(20px);
+                    <li>transform: skew (20deg, 20deg);
+               </ul>
+                <h3>Transition:</h3>
+                <p>Aplica una transicion entre dos estados de un elemento y recibe hasta 4 parametros: la propiedad afectada, el tiempo de inicio y fin, una palabra clave para especificar como la transición será realizada (ease, linear, ease-in, ease-out, ease-in-out) y un valor de retardo:</p>
+                <ul>
+                    <li>transition: color 2s linear 1s;
+               </ul>
+           
+
+                </div>
+                <div class="foto"></div>
+            </section>
+
+            <div class="titulos">
+                Diseño web
+            </div>
+            <section>
+                <div class="HTML">
+                    <center><h2 id="web">Diseño web centrado en el usuario</h2></center>
+                   <p>Yusef Hassan, Francisco J. Martin y Ghzala lazza proponen la aplicación de un marco tecnológico conocido como Diseño Centrado en el Usuario, 
+                       donde el diseñador es donde deberá aplicar metodologías, técnicas y procedimientos ideados con el fin de saber si un sitio web cumple con las especificaciones de usabilidad web. Con 
+                       esto se asume que el proceso y desarrollo deberá cumplir con las necesidades, características y objetivos planteados, esto implica que:</p>
+                        <ul>
+                            <li>Involucrar a los usuarios en el proceso para poder conocerlos y que es lo que necesitan
+                            <li>Investigar como estos reaccionan a la experiencia y al diseño
+                            <li>Si cumple con los estándares de innovación para mejorar la experiencia del usuario
+                        </ul>
+                    <p>En el proceso de diseño, varias de las fases tienen procesos iterativos, es decir, son procesos que se repiten constantemente, como lo serian las fases de “diseño”, “prototipado” y “evaluación”.</p>
+                    <br></br>
+                    <p>A continuación, vamos a explicar algunas de las etapas o fases del diseño:</p>
+                    <h3>Planificación:</h3>
+                    <p>En esta fase el diseñador estará en una constante investigación con los usuarios, preguntándose siempre el que es factible usar en la página (contenido y diseños) para poder lograr sus objetivos. Se basa casi completamente en recoger, analizar y ordenar toda la información posible en base a la información del usuario, contexto y objetivos claros con el sitio web.</p>
+                    <h3>Benchmarking:</h3>
+                    <p>Se hace una investigación a aquellas páginas que nosotros estemos visitando con el fin de observar, analizar y conseguir los detalles para poder diseñar de manera competitiva, intuitiva y analítica el como los usuarios han aceptado dichas paginas; la manera de realizar el benchmarking es plantearse una serie de preguntas:</p>
+                    <ol>
+                        <li>¿Cuáles son los objetivos del sitio?
+                        <li>¿Cuánto tiempo tardo en cargar?
+                        <li>¿Se descargó en un orden lógico?
+                        <li>¿Es un sitio web interesante?
+                        <li>¿Cómo son los gráficos?
+                        <li>¿Refleja el género de la empresa o compañía?
+                        <li>¿Es de fácil uso y es cómodo navegar en él?
+                        <li>¿El contenido está estructurado de manera lógica?
+                        <li>¿Hay demasiados o insuficientes niveles de información?
+                        <li>¿En conjunto el sitio es un éxito?
+                    </ol>
+                    <h3>Diseño:</h3>
+                    <p>En esta etapa simplemente se trata en la toma de decisiones acerca de lo que se plantea diseñar en base a la investigación obtenida para poder resolver, tanto problemas de usabilidad de otras páginas o hacer innovaciones.</p>
+                    <h3>Modelado del usuario:</h3>
+                    <p>A partir de este paso, debemos resumir y organizar toda la investigación en población que hicimos con nuestros usuarios, sin embargo, cuando se tienen demasiados usuarios a veces es muy complicado desarrollar cada situación en detalle, por lo creamos un perfil de identidad para poder emplear y poner toda la información en una sola hoja de información, creando un “escenario” y una “situación” que sea útil y referenciado a lo que nos queremos dirigir.</p>
+                    <h3>Diseño conceptual:</h3>
+                    <p>En este apartado debemos definir sin lujo de detalle el funcionamiento del sitio, su navegación y la estructura con la que se va a contar. La arquitectura de la pagina web se debe mostrar a través de gráficos que ilustren con detalle lo que se quiere proyectar, para así tener una idea clara en el desarrollo del funcionamiento de la página o sitio web.</p>
+                    <h3>Diseño visual:</h3>
+                    <p>En base al diseño conceptual que se desarrolló, se puede hacer uso mayor resolución y detalles y la idea que se tiene, aquí se tienen que definir con estructura y detalle el resultado al que se quiere llegar. Es importante que tenga un estilo que sea apto para los usuarios, que sea entendible y que presente la información de forma detallada y resumida.</p>
+                </div>
+                <div class="foto"></div>
+            </section>
+            <div class="Boton">
+                <a href="#logo">Volver al inicio</a>
+            </div>
+        </section>
+        <footer></footer>
+    </main>
+</body>
+</html>
